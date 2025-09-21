@@ -1,0 +1,29 @@
+/* Thanh tabs Q1–Q12 căn giữa */
+#quarter-tabs {
+  display: flex;
+  justify-content: center;   /* căn giữa ngang */
+  gap: 8px;                  /* khoảng cách giữa các nút */
+  margin-bottom: 12px;
+}
+
+/* Tiêu đề căn giữa */
+#title {
+  text-align: center;        /* căn chữ giữa */
+  width: 100%;
+  margin: 0 auto 20px auto;  /* canh giữa và cách dưới */
+}
+
+/* Các nút tab */
+#quarter-tabs .tab {
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background: #f7f7f7;
+  cursor: pointer;
+}
+
+#quarter-tabs .tab.active {
+  background: #3f6aa1;
+  color: white;
+  font-weight: bold;
+}
